@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">IMC2.0</string>
+    <string name="calculate">Calculadora</string>
+    <string name="bmi">IMC</string>
+    <string name="login">Logar</string>
+    <string name="your_email">Seu e-mail</string>
+    <string name="your_pass">Sua senha</string>
+    <string name="new_user">Cadastrar</string>
+    <string name="logo_name">SENAI</string>
+    <string name="add_new_user">Adicionar novo usuario</string>
+    <string name="your_mail">Seu Email</string>
+    <string name="weight">Peso</string>
+    <string name="height">Altura</string>
+    <string name="create_user">Criar usuario</string>
+    <string name="senai">SENAI</string>
+    <string name="result_txt">This is your bmi result</string>
+
+
+</resources>

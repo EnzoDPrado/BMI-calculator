@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">IMC2.0</string>
+    <string name="calculate">Calculerr</string>
+    <string name="bmi">BMI</string>
+    <string name="login">Connexion</string>
+    <string name="your_email">Votre e-mail</string>
+    <string name="your_pass">Votre mot de passe</string>
+    <string name="new_user">S\ìnscrire</string>
+    <string name="logo_name">SENAI</string>
+    <string name="add_new_user">Add new user</string>
+    <string name="your_mail">Your Email</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="create_user">Create user</string>
+    <string name="senai">SENAI</string>
+    <string name="user_name_info">User name</string>
+    <string name="user_email_info">email@of.user.com</string>
+    <string name="question_txt">Shall we calculate your body mass index now?</string>
+    <string name="result_txt">This is your bmi result</string>
+
+</resources>
