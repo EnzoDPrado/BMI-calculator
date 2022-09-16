@@ -24,6 +24,13 @@
     <string name="user_email_info">email@of.user.com</string>
     <string name="question_txt">Shall we calculate your body mass index now?</string>
     <string name="result_txt">This is your bmi result</string>
+    <string name="under_weight">You`re under weight</string>
+    <string name="ideal_weight">You`re in the ideal weight</string>
+    <string name="overweight">You`re slightly overweight</string>
+    <string name="obesity_one">Obesity grade one</string>
+    <string name="obesity_two">Obesity grade two</string>
+    <string name="obesity_three">Obesity grade three</string>
+
 
 
 </resources>

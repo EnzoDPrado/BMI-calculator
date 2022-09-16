@@ -13,7 +13,23 @@
     <string name="height">Altura</string>
     <string name="create_user">Criar usuario</string>
     <string name="senai">SENAI</string>
-    <string name="result_txt">This is your bmi result</string>
+    <string name="result_txt">Este e o resultado do seu IMC</string>
+    <string name="user_name">Nome</string>
+    <string name="sign_up_messange">Inscrever um novo usuario</string>
+    <string name="pass">Senha</string>
+    <string name="mail">E-mail</string>
+    <string name="user_weight">Peso</string>
+    <string name="user_height">Altura</string>
+    <string name="newuser">Adicionar um novo usuario</string>
+    <string name="user_name_info">Nome de usuario</string>
+    <string name="user_email_info">email@do.usuario.com</string>
+    <string name="question_txt">Vamos calcular seu índice de massa corporal agora?</string>
+    <string name="under_weight">Voce esta abaixo do peso</string>
+    <string name="ideal_weight">Voce esta no peso ideal</string>
+    <string name="overweight">Voce esta levemente acima do peso</string>
+    <string name="obesity_one">Obesidade grau I</string>
+    <string name="obesity_two">Obesidade grau II</string>
+    <string name="obesity_three">Obesidade grau III</string>
 
 
 </resources>

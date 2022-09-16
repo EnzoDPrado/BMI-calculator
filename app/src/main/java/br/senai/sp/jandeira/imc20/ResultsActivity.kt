@@ -25,22 +25,24 @@ class ResultsActivity : AppCompatActivity() {
         val peso = intent.getStringExtra("peso").toString().toInt()
         val altura = intent.getStringExtra("altura").toString().toDouble()
 
-        val resetAltura = altura / 100;
+        if(altura > 100){
+            val resetAltura = altura / 100;
 
-        val bmi = getBmi(peso, resetAltura)
+            val bmi = getBmi(peso, resetAltura)
 
-        binding.textViewResult.text = String.format("%.2f", bmi)
+            binding.textViewResult.text = String.format("%.2f", bmi)
 
-        val status = getBmiStatus(bmi);
+            val status = getBmiStatus(bmi,this);
 
-        binding.textViewStatus.text = status;
+            binding.textViewStatus.text = status;
+        }else{
+            val bmi = getBmi(peso,altura);
+            binding.textViewResult.text = String.format("%.2f", bmi);
 
+            val status = getBmiStatus(bmi,this);
 
+            binding.textViewStatus.text = status;
 
-
-
+        }
     }
-
-
-
 }

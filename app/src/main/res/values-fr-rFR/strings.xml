@@ -7,15 +7,29 @@
     <string name="your_pass">Votre mot de passe</string>
     <string name="new_user">S\ìnscrire</string>
     <string name="logo_name">SENAI</string>
-    <string name="add_new_user">Add new user</string>
-    <string name="your_mail">Your Email</string>
-    <string name="weight">Weight</string>
-    <string name="height">Height</string>
-    <string name="create_user">Create user</string>
+    <string name="add_new_user">Ajouter un nouvel utilisateur</string>
+    <string name="your_mail">Votre e-mail</string>
+    <string name="weight">Lester</string>
+    <string name="height">Hauteur</string>
+    <string name="create_user">Créer un utilisateur</string>
     <string name="senai">SENAI</string>
-    <string name="user_name_info">User name</string>
-    <string name="user_email_info">email@of.user.com</string>
-    <string name="question_txt">Shall we calculate your body mass index now?</string>
-    <string name="result_txt">This is your bmi result</string>
+    <string name="user_name_info">Nom d`utilisateur</string>
+    <string name="user_email_info">email@del`utilisateur</string>
+    <string name="question_txt">Allons-nous calculer votre indice de masse corporelle maintenant ?</string>
+    <string name="result_txt">Ceci est votre résultat IMC</string>
+    <string name="user_name">Nom</string>
+    <string name="sign_up_messange">Inscrire un nouvel utilisateur</string>
+    <string name="pass">Mot de passe</string>
+    <string name="mail">E-mail</string>
+    <string name="user_weight">Lester</string>
+    <string name="user_height">Hauter</string>
+    <string name="newuser">Ajouter un nouvel utilisateur</string>
+    <string name="under_weight">Vous êtes en sous-poids</string>
+    <string name="ideal_weight">Vous êtes à votre poids idéal</string>
+    <string name="overweight">Vous êtes légèrement en surpoids</string>
+    <string name="obesity_one">Obésité de premier degré</string>
+    <string name="obesity_two">Obésité de deuxième année</string>
+    <string name="obesity_three">Obésité de troisième degré</string>
+
 
 </resources>

@@ -18,7 +18,10 @@ class BmiCalculator : AppCompatActivity() {
             setContentView(binding.root)
             loadProfile()
 
-            binding.buttonCalculate.setOnClickListener {bmiCalculate()}
+            binding.buttonCalculate.setOnClickListener {
+                update();
+                bmiCalculate()
+            }
 
 
         }
@@ -29,8 +32,12 @@ class BmiCalculator : AppCompatActivity() {
             openResult.putExtra("peso", binding.editTextWeight.text.toString());
             openResult.putExtra("altura", binding.editTextHeight.text.toString());
 
+
             startActivity(openResult)
+
         }
+
+
 
         private fun loadProfile() {
             //Abrir o arquivo SharedPreferences
@@ -39,9 +46,26 @@ class BmiCalculator : AppCompatActivity() {
 
             binding.textViewUsername.text = dados.getString("name", "");
             binding.textViewEmail.text = dados.getString("email", "");
+
             binding.textViewWeight.text = "Weight : ${dados.getFloat("weight", 0F)}Kg";
-            binding.textViewHeight.text = "Height : ${dados.getFloat("height", 0F)}Cm"
+            binding.textViewHeight.text = "Height : ${dados.getFloat("height", 0F)}Cm";
 
         }
+
+    private fun update(){
+        val dados = getSharedPreferences("dados", MODE_PRIVATE) // referencia do shared preferences
+
+        val editor = dados.edit()
+
+        editor.putFloat("weight", binding.editTextWeight.text.toString().toFloat());
+        editor.putFloat("height", binding.editTextHeight.text.toString().toFloat());
+
+        editor.apply()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        loadProfile()
+    }
 
 }
