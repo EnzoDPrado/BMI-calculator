@@ -16,14 +16,13 @@ class BmiCalculator : AppCompatActivity() {
             super.onCreate(savedInstanceState)
             binding = ActivityBmiCalculator2Binding.inflate(layoutInflater)
             setContentView(binding.root)
-            loadProfile()
-
             binding.buttonCalculate.setOnClickListener {
-                update();
-                bmiCalculate()
+
+                if(validateForm()) {
+                    update();
+                    bmiCalculate()
+                }
             }
-
-
         }
 
         private fun bmiCalculate(){
@@ -34,6 +33,18 @@ class BmiCalculator : AppCompatActivity() {
 
 
             startActivity(openResult)
+
+        }
+        private fun validateForm() : Boolean  {
+        if(binding.editTextWeight.text.isEmpty()){
+            binding.editTextWeight.error = "Valor requirido!"
+            return false;
+        }
+        if(binding.editTextHeight.text.isEmpty()){
+            binding.editTextHeight.error = "Valor requirido"
+            return false
+        }
+        return true
 
         }
 
